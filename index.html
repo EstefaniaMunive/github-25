@@ -11,8 +11,8 @@
     <title>Proyecto</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-          <a class="navbar-brand" href="#">Navbar</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <a class="navbar-brand text-white" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -20,20 +20,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link text-white" href="#">Link</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Dropdown
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item text-white" href="#">Action</a>
+                  <a class="dropdown-item text-white" href="#">Another action</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Chismoso</a>
                 </div>
               </li>
             </ul>
@@ -57,24 +57,55 @@
 <span class="badge badge-dark">Dark</span>
 </section>
 <p></p>
-<section class="tarjetas">
-<div class="card" style="width: 18rem;">
+<section class="tarjetas col-12">
+  <div class="row col-12">
+<div class="tarjeteros col-3">
+  <div class="card" style="width: 18rem;">
     <img class="card-img-top" src=".../100px180/" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">La vida de Steff</h5>
+      <h5 class="card-title badge-primary">La vida de Steff</h5>
       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quod unde ratione fugiat. Quasi enim eligendi itaque quae architecto ut rem nulla quam iste? Blanditiis adipisci dicta labore tempora laudantium?</p>
-      <a href="#" class="btn btn-primary">Apoco no es interesante</a>
+      <a href="#" class="btn btn-primary">Apoco no es interesante?</a>
     </div>
   </div>
-</section>
+</div>
 
+<div class="tarjeteros col-1"></div>
+<div class="tarjeteros col-3">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title badge-success">La vida de Julian</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quod unde ratione fugiat. Quasi enim eligendi itaque quae architecto ut rem nulla quam iste? Blanditiis adipisci dicta labore tempora laudantium?</p>
+        <a href="#" class="btn btn-success">Apoco no es interesante?</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="tarjeteros col-1"></div>
+  <div class="tarjeteros col-3">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title badge-warning">La vida de Alfonso</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quod unde ratione fugiat. Quasi enim eligendi itaque quae architecto ut rem nulla quam iste? Blanditiis adipisci dicta labore tempora laudantium?</p>
+          <a href="#" class="btn btn-warning">Apoco no es interesante?</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="tarjeteros col-1"></div>
+
+</div>
+</section>
+<p></p>
 <div class="input-group mb-3">
     <div class="input-group-prepend">
-      <button class="btn btn-outline-secondary" type="button" id="button-addon1">Ingresa tu película favorita</button>
+      <button class="btn btn-outline-dark" type="button" id="button-addon1">Ingresa tu película favorita</button>
     </div>
     <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
   </div>
-  
+  <p></p>
   <div class="input-group mb-3">
     <input type="text" class="form-control" placeholder="Cuando tengo hambre" aria-label="Recipient's username" aria-describedby="button-addon2">
     <div class="input-group-append">
